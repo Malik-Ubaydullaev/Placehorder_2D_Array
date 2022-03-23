@@ -7,8 +7,7 @@ def create_arr_zeros_border_ones(n):
     Returns:
         list: 2D list
     """
-    arr = np.ones((n,n))
-    arr[1:-1, 1:-1] = 0
+    arr = []
     return arr
 
 print(create_arr_zeros_border_ones(5))
