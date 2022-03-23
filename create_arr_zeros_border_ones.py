@@ -7,7 +7,7 @@ def create_arr_zeros_border_ones(n):
     Returns:
         list: 2D list
     """
-    arr = []
+    arr = [0]
     return arr
 
 print(create_arr_zeros_border_ones(5))
