@@ -1,5 +1,4 @@
-from numpy import array
-
+#from numpy import array
 
 def create_arr_ones(n,m):
     """
