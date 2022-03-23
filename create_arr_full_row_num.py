@@ -7,3 +7,12 @@ def create_arr_full_row_num(n,m):
     Returns:
         list: 2D list
     """
+    lst = []
+    
+    for i in range(n):
+        lst.append([])
+        for j in range(m):
+            lst[i].append(1)
+    return lst
+
+print(create_arr_full_row_num(4, 3))
