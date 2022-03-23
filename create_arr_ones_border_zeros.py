@@ -7,8 +7,11 @@ def create_arr_ones_border_zeros(n):
     Returns:
         list: 2D list
     """
-    arr = [0]
-    
+    arr = [[1] * n for _ in range(n)]
+    for i in range(0, n):
+        for j in range(0, n):
+            arr[i][0], arr[i][-1] = 0, 0
+            arr[0][j], arr[-1][j] = 0, 0
     return arr
     
 print(create_arr_ones_border_zeros(5))
