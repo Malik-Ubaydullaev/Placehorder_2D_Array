@@ -10,8 +10,8 @@ def create_arr_zeros(n,m):
     arr = []
     for i in range(n):
         arr.append([])
-        for j in range(n):
+        for j in range(m):
             arr[i].append(0)
     return arr
 
-print(create_arr_zeros(4,3))
+print(create_arr_zeros(5,7))
