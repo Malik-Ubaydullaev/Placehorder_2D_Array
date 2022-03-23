@@ -1,4 +1,4 @@
-import numpy as np
+#import numpy as np
 def create_arr_zeros_border_ones(n):
     """
     Create 2D array NxN of zeros. Array border is ones.
