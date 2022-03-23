@@ -12,7 +12,7 @@ def create_arr_full_row_num(n,m):
     for i in range(n):
         lst.append([])
         for j in range(m):
-            lst[i].append(1)
+            lst[i].append(i)
     return lst
 
 print(create_arr_full_row_num(4, 3))
