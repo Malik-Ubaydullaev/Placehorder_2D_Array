@@ -16,6 +16,4 @@ def create_arr_ones(n,m):
         for j in range(n):
             arr[i].append(1)
     return arr
-    
-    return arr
 print(create_arr_ones(4,3))
