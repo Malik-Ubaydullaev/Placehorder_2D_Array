@@ -12,7 +12,7 @@ def create_arr_ones(n,m):
     arr = []
     for i in range(n):
         arr.append([])
-        for j in range(n):
+        for j in range(m):
             arr[i].append(1)
     return arr
 print(create_arr_ones(4,3))
